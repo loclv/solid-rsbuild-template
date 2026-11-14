@@ -1,0 +1,23 @@
+{
+  "name": "solid-rsbuild-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild",
+    "lint": "rslint",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@solidjs/web": "^2.0.0-rc.21",
+    "solid-js": "^2.0.0-rc.21"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^2.3.2",
+    "@rsbuild/plugin-solid": "^2.0.0-rc.1",
+    "@rslint/core": "^0.9.5",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
