@@ -1,23 +1,23 @@
 {
-  "name": "solid-rsbuild-template",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "rsbuild build && node scripts/build-sw.mjs",
-    "dev": "rsbuild",
-    "lint": "rslint",
-    "preview": "rsbuild preview"
-  },
-  "dependencies": {
-    "@solidjs/web": "^2.0.3",
-    "solid-js": "^2.0.3"
-  },
-  "devDependencies": {
-    "@rsbuild/core": "^2.3.3",
-    "@rsbuild/plugin-solid": "^2.1.0",
-    "@rslint/core": "^0.10.1",
-    "@types/node": "^26.6.6",
-    "typescript": "^7.0.2"
-  }
+	"name": "solid-rsbuild-template",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "rsbuild build && node scripts/build-sw.mjs",
+		"dev": "rsbuild",
+		"lint": "rslint",
+		"preview": "rsbuild preview"
+	},
+	"dependencies": {
+		"@solidjs/web": "^2.0.3",
+		"solid-js": "^2.0.3"
+	},
+	"devDependencies": {
+		"@rsbuild/core": "^2.3.3",
+		"@rsbuild/plugin-solid": "^2.1.0",
+		"@rslint/core": "^0.10.1",
+		"@types/node": "^26.6.6",
+		"typescript": "^7.0.2"
+	}
 }
