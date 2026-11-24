@@ -1,4 +1,4 @@
-# Rsbuild project
+# Solid Rsbuild template using bun, PWA, agents-skills
 
 ## Setup
 
